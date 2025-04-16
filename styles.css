@@ -1,0 +1,356 @@
+body {
+    font-family: "IBM Plex Serif", serif;
+    background-color: #F3F3F5;
+    color: #08080E;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./assets/mountain-8451604_1920.jpg") no-repeat center / cover;
+}
+
+.text-container h1 {
+    font-size: 170px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.text-container h2 {
+    color: #FCF5E7;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -4.8em;
+    text-align: right;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+.text-container h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: -5.8em;
+    font-family: sans-serif;
+    color: whitesmoke;
+    letter-spacing: 4px;
+}
+
+.thinking {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.about {
+    color: #08080E;
+    background-color: #F3F3F5;
+    max-height: 100vh;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.about-para {
+    font-size: 2rem;
+    width: 25em;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.work-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    padding: 4em;
+}
+
+.image3 {
+    transition: 0.2s;
+    height: 380px;
+    width: 480px;
+    object-fit: fill;
+    border: solid #1A1A1D 0.2em;
+}
+
+.image3:hover {
+    transform: scale(1.1);
+}
+
+.work-content-text p {
+    font-size: 1.7rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.work-content-text {
+    width: 40em;
+}
+
+.work-container-head h1 {
+    letter-spacing: 4px;
+    text-align: left;
+    display: flex;
+    font-size: 2.6rem;
+    justify-content: center;
+}
+
+.container-box {
+    max-height: 100vh;
+    padding: 7em;
+}
+
+.skills {
+    background-color: #1A1A1D;
+    color: #EEEEEE;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1 {
+    letter-spacing: 4px;
+    font-size: 2.6rem;
+}
+
+.image4 {
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.table {
+    padding: 1em;
+    letter-spacing: 3px;
+    display: flex;
+    text-align: center;
+    gap: 5rem;
+    font-size: 2rem;
+}
+
+
+.footer {
+    max-height: 100vh;
+    padding: 20px;
+    background-color: #1A1A1D;
+}
+
+.line {
+    border: solid 1px white;
+}
+
+.totop {
+    color: #D67B69;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 1.2rem;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    background-color: #1A1A1D;
+    padding: 2em;
+    margin-top: -1em;
+    color: #FED09D;
+}
+
+@media (max-width: 640px) {
+
+    .text-container{
+        max-height: 100vh;
+    }
+
+    .text-container h1{
+        font-size: 48px;
+    }
+
+    .text-container h2{
+        margin-top: -3.4em;
+        font-size: 12px;
+        letter-spacing: normal;
+    }
+
+    .text-container h3{
+        font-size: 17px;
+        margin-bottom: -3em;
+    }
+
+    .about-me{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .thinking{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .about-para{
+        font-size: 1.1rem;
+        width: 18em;
+    }
+
+    .container-box{
+        padding: 0;
+    }
+
+    .image3{
+        object-fit: fill;
+        height: 280px;
+        width: 280px;
+    }
+
+    .work-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-container-head h1{
+        letter-spacing: 2.8px;
+        font-size: 2rem;
+    }
+
+    .work-container p{
+        font-size: 1.1rem;
+    }
+
+    .work-content-text{
+        width: 20em;
+    }
+
+    .skills{
+        margin-top: 8em;
+    }
+
+    .skills h1{
+        font-size: 3.5rem;
+    }
+
+    .image4{
+        height: 280px;
+        width: 280px;
+        padding: 0px;
+    }
+
+    .table{
+        font-size: 1.4rem;
+        flex-direction: column;
+        gap: 0;
+        text-align: left;
+    }
+
+    .footer{
+        padding-top: 4em;
+    }
+
+}
+
+@media (max-width:1362px) {
+    .text-container{
+        max-height: 100vh;
+    }
+
+    .text-container h1{
+        font-size: 48px;
+    }
+
+    .text-container h2{
+        margin-top: -3.4em;
+        font-size: 12px;
+        letter-spacing: normal;
+    }
+
+    .text-container h3{
+        font-size: 17px;
+        margin-bottom: -3em;
+    }
+
+    .about-me{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .thinking{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .about-para{
+        font-size: 1.1rem;
+        width: 18em;
+    }
+
+    .container-box{
+        padding: 0;
+    }
+
+    .image3{
+        object-fit: fill;
+        height: 280px;
+        width: 280px;
+    }
+
+    .work-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-container-head h1{
+        letter-spacing: 2.8px;
+        font-size: 2rem;
+    }
+
+    .work-container p{
+        font-size: 1.1rem;
+    }
+
+    .work-content-text{
+        width: 20em;
+    }
+
+    .skills{
+        margin-top: 8em;
+    }
+
+    .skills h1{
+        font-size: 3.5rem;
+    }
+
+    .image4{
+        height: 280px;
+        width: 280px;
+        padding: 0px;
+    }
+
+    .table{
+        font-size: 1.4rem;
+        flex-direction: column;
+        gap: 0;
+        text-align: left;
+    }
+
+    .footer{
+        padding-top: 4em;
+    }
+    
+}
